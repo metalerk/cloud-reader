@@ -21,3 +21,10 @@ $ go build -o cloud-reader cloud_reader.go
 ```sh
 $ cloud-reader
 ```
+
+## Screenshots
+
+![screenshot1](https://i.imgur.com/SZhjZA5.png)
+![screenshot1](https://i.imgur.com/0weXE1d.png)
+![screenshot1](https://i.imgur.com/wbZgKQH.png)
+![screenshot1](https://i.imgur.com/KXBxEjD.png)
