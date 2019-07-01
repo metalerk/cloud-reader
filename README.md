@@ -15,3 +15,9 @@ $ GOOS=linux go build -o cloud-reader cloud_reader.go
 ```sh
 $ go build -o cloud-reader cloud_reader.go
 ```
+
+## Run
+
+```sh
+$ cloud-reader
+```
