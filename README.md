@@ -12,6 +12,9 @@ $ sudo dpkg -i cloud-reader_<VERSION>_all.deb
 
 ## Install from source code
 
+**Before installing, make sure to setup the build environment for golang in the 
+[webview docs](https://github.com/webview/webview/blob/master/README.md)**
+
 ### Linux
 
 ```sh
