@@ -7,13 +7,16 @@ A very simple reader for Amazon Cloud Reader.
 Download latest deb package from [here](https://github.com/metalerk/cloud-reader/releases/latest)
 
 ```sh
-$ sudo dpkg -i cloud-reader_<VERSION>_all.deb
+sudo dpkg -i cloud-reader_<VERSION>_all.deb
 ```
 
 ## Install from source code
 
 **Before installing, make sure to setup the build environment for golang in the 
 [webview docs](https://github.com/webview/webview_go/blob/master/README.md)**
+```sh
+go get github.com/webview/webview_go
+```
 
 ### Linux
 
@@ -26,13 +29,13 @@ $ GOOS=linux go build -o cloud-reader cloud_reader.go
 ### Other
 
 ```sh
-$ go build -o cloud-reader cloud_reader.go
+go build -o cloud-reader cloud_reader.go
 ```
 
 ## Run
 
 ```sh
-$ cloud-reader
+cloud-reader
 ```
 
 ## Screenshots
