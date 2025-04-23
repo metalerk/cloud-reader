@@ -1,6 +1,6 @@
 package main
 
-import "github.com/webview/webview"
+import webview "github.com/webview/webview_go"
 
 func main() {
 	w := webview.New(true)
